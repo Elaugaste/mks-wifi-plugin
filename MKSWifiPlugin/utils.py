@@ -67,7 +67,7 @@ def add_screenshot(img, width, height, img_type):
 
 def take_screenshot():
     cut_image = Snapshot.snapshot(width = 900, height = 900)
-    return cut_image
+    return False
 
 # def GetPinyins(text):
 #     pinyins = ""
